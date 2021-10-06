@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.topnav{
+	background-color: #EFEFEF;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: #5F330C;
+	text-align: center;
+	padding: 14px 30px 14px 30px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.topnav a:hover {
+	background-color: #F9E09F;
+	color: #FFFFFF;
+}
+
+.topnav a.active {
+	background-color: #F5CB5C;
+	color: white;
+}
+
+h3 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #687BC5;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #F5CB5C;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content="width=device-width, initial-scale=1"> 
+<style>
+		
+	.topnav{
+		background-color: #EFEFEF;
+		overflow: hidden;
+	}
+
+	.topnav a {
+		float: left;
+		color: #5F330C;
+		text-align: center;
+		padding: 14px 30px 14px 30px;
+		text-decoration: none;
+		font-size: 18px;
+	}
+
+	.topnav a:hover {
+		background-color: #F9E09F;
+		color: #FFFFFF;
+	}
+
+	.topnav a.active {
+		background-color: #F5CB5C;
+		color: white;
+	}
+
+	h3 {
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: #687BC5;
+	}
+
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #F5CB5C;
+		color: white;
+		text-align: center;
+	}		
+		
+	form {
+		border: 4px solid #f1f1f1;
+	}
+	
+	.container {
+		padding: 20px;
+		background-color: #f1f1f1;
+	}
+	
+	input[type=text], input[type=submit] {
+		width: 100%;
+		padding: 12px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+	
+		input[type=checkbox] {
+			margin-top: 16px;
+		}
+		
+		input[type=submit] {
+			background-color: #C3E3C8;
+			color: #E70C0F;
+			font-size: 15px;
+			border: none;
+		}
+		
+		input[type=submit]:hover {
+			opacity: 0.8;
+		}
+	
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	
+
+</style>
+	<title> Newsletter </title>
+</head>
+
+<body style="background-color:#C3E4C8">
+	<div class="topnav">
+		<a href="GCCJ_index.html">Home</a>
+<a class="active" href="newsletter.html">Newsletter</a> <a  href="contact.html">Contact</a> </div>
+	</nav>
+	<header>
+
+	</header>
+	<img src="../../Library/Mobile Documents/com~apple~CloudDocs/climateProtest.jpeg" class="center">
+
+<section>
+  <form action="action_page.php">
+		<div class="container">
+			<h2 style="color:#ED0003">The People's Climate Justice Newsletter</h2>
+<p><em>Keep up with the Center's daily newsletter, written by reporters, climate activists, and researchers in the field.  </em></p>		
+		
+		<div class="container">
+			<input type="text" placeholder="Name" name="name"
+		required>
+			<input type="text" placeholder="Email address" name="mail" required>
+			<label>
+				<input type="checkbox" checked="checked"
+			name="subscribe">Daily Newsletter
+			</label>
+		</div>
+		
+		<div class="container">
+			<input type="submit" value="Subscribe">	
+			<br><br><br>
+		</div>	
+	</form>
+</section>
+	
+	<div class="footer">
+		<p>&copy; 2021 Global Center for Climate Justice</p>
+	</div>
+
+	
+		
+</body>
+</html>
